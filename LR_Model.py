@@ -59,10 +59,11 @@ r2 = r2_score(y_test, y_predicted)
 print(f'Mean Squared Error: {mean_squared_error}') # 135.12
 print(f'R-Squared: {r2}') # 0.84
 
+# To make new predictions
 new_data = pd.DataFrame({'Sentiment': [0.5], 'Open': [150.0]})
 prediction = model.predict(new_data)
 
-print("Predicted Closing Price:", prediction)
+# print("Predicted Closing Price:", prediction)
 
 ## Make a package of the Model and saves it to a file which can be used later by importing it and using it as showed right above.
 filename_for_model = 'Linear_Regression_Model.pkl'
