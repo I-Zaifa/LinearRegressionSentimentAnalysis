@@ -24,10 +24,10 @@ Sentiment and Opening prices are the Independent Variables. Closing Price is the
 The current model gives the following results:
 ![tfp](https://github.com/I-Zaifa/LinearRegressionSentimentAnalysis/assets/174838964/2c835bc0-7b08-450d-9744-5c7af9be58cf)
 
-The MSE is very high telling that there is a lot of difference in the actual and predicted values in the test data but the R2 value shows that a lot of the variation (84%) in the model's dependent variable can be explained by the independent variables. (Using other random splits will lead to different results due to the sample size being very small).
+The MSE is very high telling that there is a lot of difference in the actual and predicted values in the test data but the R2 value shows that a lot of the variation (84%) in the model's dependent variable can be explained by the independent variables. (Using other random splits will lead to different -usually worse- results due to the sample size being very small).
 
 ## Improvements Required:
 1. The main improvement required is the increase in the data of the news headlines and the stock which should be for every day and not just for the month as a whole. More years can be added as long as the news headlines are from reliable sources. (News archives could be used with OCR for text reading from images)
 2. The data should also take into consideration items such as the fact that when data is being taken for every day then any news after 5 should be added to the next day as the market closes down. Also that the weekends news should be shifted to be with Monday's news.
-3. Other measures should be added to validate the interpretation of the results such as adjusted r2 score and cross-validating the data across numerous random iterations of test/train splits to make sure that the same or near the same results still hold.
+3. Other measures should be added to validate the interpretation of the results such as adjusted r2 score and cross-validating the data across numerous iterations to make sure that the same or near the same results still hold.
 4. **This would have been a perfect project, one I would have worked a lot more on but could not due to the limited availability of the news related data.** (Webscraping is a different skill; one I plan to improve in the near future) 
