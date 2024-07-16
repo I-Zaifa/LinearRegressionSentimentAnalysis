@@ -1,10 +1,10 @@
 ## Description:
 
-A learning project that I did which includes using opening prices along with sentiment analysis done on news headlines for the end of that month for **Microsoft Corp. From Feb-2022 to December-2023**, to predict the closing prices. 
+A learning project that I did which includes using opening prices of stocks along with sentiment analysis done on news headlines for the end of that month for **Microsoft Corp. From Feb-2022 to December-2023**, to predict the closing prices. 
 
-It was done this way because stock data is easily available but recent news data for every day of the month is not so free and the free one is limited.
+It was done this way because stock data is easily available but recent news data for every day of the month is not so free and the free one is incredibly limited. 
 
-### This project serves to test and showcase my skills in nlp sentiment analysis (using nltk library), Linear regression model use and interpretation in a theoretical context, and the data preprocessing that is done for it. The data is limited and thus so are the results but that is not my main focus right now.
+### This project serves to showcase my skills in nlp sentiment analysis (using nltk library), Linear regression model use (Scikit-Learn) and interpretation in a theoretical context, and the data preprocessing that is done for it. The data is limited and thus so are the results but my main focus right now is on the logic of the code.
 
 #### The Stock and News data was taken from https://www.alphavantage.co/ using it's free API (limited use). Sublime Text Editor was used to write the code. (ChatGPT honourable mention?)
 
